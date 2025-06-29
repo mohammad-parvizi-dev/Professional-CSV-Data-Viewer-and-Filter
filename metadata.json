@@ -1,0 +1,6 @@
+{
+  "name": "Professional CSV Data Viewer and Filter",
+  "description": "An application to upload, view, and filter CSV data. Handles various CSV formats, displays data in a structured table, and allows for powerful multi-field filtering. Provides error highlighting for malformed rows.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
