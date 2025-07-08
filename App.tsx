@@ -7,6 +7,7 @@ import FilterControls from './components/FilterControls';
 import DataTable from './components/DataTable';
 import { BarChartIcon } from './components/icons'; // Placeholder for future chart feature
 
+const PROJECT_VERSION = '1.4.7'; // Project version number
 const App: React.FC = () => {
   const [parsedData, setParsedData] = useState<ParsedCsvData | null>(null);
   const [filteredRows, setFilteredRows] = useState<CsvRow[]>([]);
@@ -147,7 +148,7 @@ const App: React.FC = () => {
         )}
       </main>
       <footer className="text-center mt-12 py-4 text-slate-500">
-        <p>&copy; {new Date().getFullYear()} CSV Viewer Pro. Built with React & Tailwind CSS.</p>
+<p>&copy; {new Date().getFullYear()} CSV Viewer Pro v{PROJECT_VERSION}. Built with React & Tailwind CSS.</p>
       </footer>
     </div>
   );
